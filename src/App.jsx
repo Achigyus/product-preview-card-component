@@ -16,19 +16,19 @@ function App() {
         </div>
         
         <div className="product_preview_details">
-          <p className="product_preview_type">Perfume</p>
-          <h1 className="product_preview_name">Gabrielle Essence Eau De Parfum</h1>
-          <p className="product_preview_desc">A floral, solar and voluptuous interpretation composed by Olivier Polge,
+          <p className="product_preview_type montserrat_500">Perfume</p>
+          <h1 className="product_preview_name fraunces_700">Gabrielle Essence Eau De Parfum</h1>
+          <p className="product_preview_desc montserrat_500">A floral, solar and voluptuous interpretation composed by Olivier Polge,
           Perfumer-Creator for the House of CHANEL.</p>
           <div className="product_preview_prices">
-            <p className="product_preview_discount_price">$149.99</p>
-            <p className="product_preview_old_price">$169.99</p>
+            <p className="product_preview_discount_price fraunces_700">$149.99</p>
+            <p className="product_preview_old_price montserrat_500">$169.99</p>
           </div>
-          <button className="product_preview_add_to_cart_btn">
+          <button className="product_preview_add_to_cart_btn montserrat_700">
             <div className="product_preview_cart_img_container">
               <img src={cartIcon} alt="cart icon" className="product_preview_cart_img" />
-              Add to Cart
             </div>
+            Add to Cart
           </button>
         </div>
 
