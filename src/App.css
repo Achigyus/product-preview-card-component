@@ -150,13 +150,34 @@ body{
     inline-size: 50%;
   }
 
+  
   .product_preview_img_mobile{
     display: none;
   }
-
+  
   .product_preview_img_desktop{
     display: inline-block;
     border-radius: 0.625rem 0 0 0.625rem;
     block-size: 100%;
+  }
+
+  .product_preview_details{
+    padding: 2rem;
+  }
+
+  .product_preview_type{
+    margin-block-end: 1.25rem;
+  }
+
+  .product_preview_name{
+    margin-block-end: 1.5rem;
+  }
+
+  .product_preview_desc{
+    margin-block-end: 1.813rem;
+  }
+
+  .product_preview_prices{
+    margin-block-end: 1.875rem;
   }
 }
